@@ -1,0 +1,49 @@
+body {
+  background-color: antiquewhite;
+}
+
+img {
+  height: 2cm;
+  width: max-content;
+}
+
+iframe {
+  width: max-content;
+  height: 450px;
+}
+
+/*.card{
+    margin: 20px;
+    position: relative;
+    &::before,
+    &::after {
+      content: "";
+      width: 3cm;
+      top: 0;
+      left: 0;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      border: 2px solid #d65aa8;
+      transition: all .25s ease-out;
+    }
+    &::before {
+      background-color: #f567c1;
+      top: -10px;
+      left: -10px;
+    }
+    &::after {
+      bottom: -10px;
+      right: -10px;
+    }
+    &:hover {
+      &::before {
+        top: 15px;
+        left: 15px;
+      }
+      &::after {
+        bottom: 15px;
+        right: 15px;
+      }
+    }
+}
